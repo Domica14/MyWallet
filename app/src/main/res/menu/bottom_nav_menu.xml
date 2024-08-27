@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navHome"
+        android:title="@string/home"
+        android:icon="@drawable/outline_home_24" />
+
+    <item
+        android:id="@+id/navQr"
+        android:title="@string/qr"
+        android:icon="@drawable/outline_qr_code_24" />
+
+    <item
+        android:id="@+id/navHistorial"
+        android:title="@string/historial"
+        android:icon="@drawable/outline_description_24" />
+
+</menu>

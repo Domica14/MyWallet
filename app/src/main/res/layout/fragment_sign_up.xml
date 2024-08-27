@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#fff"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.fragments.auth.SignUpFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/LogoSignUp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtSignUp"
+            android:text="Registrarse"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginStart="40dp"
+            android:layout_marginBottom="15dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            app:hintTextColor="#000"
+            android:hint="@string/nombre"
+            app:boxStrokeColor="#000"
+            android:layout_marginBottom="15dp"
+            android:layout_marginStart="40dp" >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="325dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/NombreSignUp"
+                android:inputType="text"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:textColorHint="#000" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            app:hintTextColor="#000"
+            android:hint="@string/cedula"
+            app:boxStrokeColor="#000"
+            android:layout_marginBottom="15dp"
+            android:layout_marginStart="40dp" >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="325dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/CedulaSignUp"
+                android:inputType="text"
+                android:textSize="15sp"
+                android:textColor="#000" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            app:hintTextColor="#000"
+            android:hint="@string/correo_electr_nico"
+            app:boxStrokeColor="#000"
+            android:layout_marginBottom="15dp"
+            android:layout_marginStart="40dp" >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="325dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/EmailSignUp"
+                android:inputType="textEmailAddress"
+                android:textSize="15sp"
+                android:textColor="#000" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            app:hintTextColor="#000"
+            android:hint="@string/celular"
+            app:boxStrokeColor="#000"
+            android:layout_marginBottom="15dp"
+            android:layout_marginStart="40dp" >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="325dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/CelularSignUp"
+                android:inputType="textEmailAddress"
+                android:textSize="15sp"
+                android:textColor="#000" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            app:hintTextColor="#000"
+            android:hint="@string/usuario"
+            app:boxStrokeColor="#000"
+            android:layout_marginBottom="15dp"
+            android:layout_marginStart="40dp" >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="325dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/UsuarioSignUp"
+                android:inputType="text"
+                android:textSize="15sp"
+                android:textColor="#000" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            app:hintTextColor="#000"
+            android:hint="@string/contrase_a"
+            app:endIconMode="password_toggle"
+            app:boxStrokeColor="#000"
+            android:layout_marginBottom="15dp"
+            android:layout_marginStart="40dp" >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="325dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/PasswordSignUp"
+                android:inputType="textPassword"
+                android:textSize="15sp"
+                android:textColor="#000" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="60dp"
+            android:text="@string/registrarse"
+            android:id="@+id/BtnRegistrarse"
+            android:backgroundTint="#000"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/SignUpToLogin"
+                android:text="@string/login_link"
+                android:textSize="18sp"
+                android:textColor="#000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/IniciarSesion"
+                android:text=" Iniciar Sesion"
+                android:textSize="18sp"
+                android:textColor="#0318e5"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">MyWallet</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="iniciar_sesi_n">Iniciar Sesión</string>
+    <string name="usuario">Usuario</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="logo">Logo</string>
+    <string name="nombre">Nombre</string>
+    <string name="cedula">Cedula</string>
+    <string name="correo_electr_nico">Correo Electrónico</string>
+    <string name="celular">Celular</string>
+    <string name="registrarse">Registrarse</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <!-- String colors -->
+    <string name="login_link">
+        ¿Ya tienes una cuenta?
+    </string>
+    <string name="signup_link">
+        ¿No tienes una cuenta?
+    </string>
+    <string name="home"><font color="#FFFFFF">
+        Home</font></string>
+    <string name="qr"><font color="#FFFFFF">
+        QR</font></string>
+    <string name="historial"><font color="#FFFFFF">
+        Historial</font></string>
+</resources>
